@@ -1,0 +1,192 @@
+{
+  "currentPerson": {
+    "id": 0,
+    "name": "",
+    "present": false
+  },
+  "people": [{
+    "id": 1,
+    "name": "Adina Hit",
+    "present": false
+  }, {
+    "id": 2,
+    "name": "Alexandru Moraru",
+    "present": false
+  }, {
+    "id": 3,
+    "name": "Alin Gherman",
+    "present": false
+  }, {
+    "id": 4,
+    "name": "Anca Balc",
+    "present": false
+  }, {
+    "id": 5,
+    "name": "Anca Vitez ",
+    "present": false
+  }, {
+    "id": 6,
+    "name": "Andris Simi",
+    "present": false
+  }, {
+    "id": 7,
+    "name": "Bianca Tartau",
+    "present": false
+  }, {
+    "id": 8,
+    "name": "Bojin Mihaita",
+    "present": false
+  }, {
+    "id": 9,
+    "name": "Burz Eugen",
+    "present": false
+  }, {
+    "id": 10,
+    "name": "Buzducea Solomon",
+    "present": false
+  }, {
+    "id": 11,
+    "name": "Calin Coman",
+    "present": false
+  }, {
+    "id": 12,
+    "name": "Catalin Brotei ",
+    "present": false
+  }, {
+    "id": 13,
+    "name": "Ciprian Anti",
+    "present": false
+  }, {
+    "id": 14,
+    "name": "Craciun Ovidiu",
+    "present": false
+  }, {
+    "id": 15,
+    "name": "Cristi Poteras ",
+    "present": false
+  }, {
+    "id": 16,
+    "name": "Cristina Biclesteanu",
+    "present": false
+  }, {
+    "id": 17,
+    "name": "Dancescu Dan",
+    "present": false
+  }, {
+    "id": 18,
+    "name": "Dani Imbre",
+    "present": false
+  }, {
+    "id": 19,
+    "name": "Daniel Bahrim",
+    "present": false
+  }, {
+    "id": 20,
+    "name": "Danut Gavriloni",
+    "present": false
+  }, {
+    "id": 21,
+    "name": "Danut Hord",
+    "present": false
+  }, {
+    "id": 22,
+    "name": "Demian Gelu",
+    "present": false
+  }, {
+    "id": 23,
+    "name": "Diana Cerb",
+    "present": false
+  }, {
+    "id": 24,
+    "name": "Emanuel Stanciu",
+    "present": false
+  }, {
+    "id": 25,
+    "name": "Frentoni Sandu",
+    "present": false
+  }, {
+    "id": 26,
+    "name": "Gabi Cretu",
+    "present": false
+  }, {
+    "id": 27,
+    "name": "Mariana Murg",
+    "present": false
+  }, {
+    "id": 28,
+    "name": "Maris Daniel",
+    "present": false
+  }, {
+    "id": 29,
+    "name": "Maris Eugen",
+    "present": false
+  }, {
+    "id": 30,
+    "name": "Mihutiu Florin",
+    "present": false
+  }, {
+    "id": 31,
+    "name": "Miron Gardean ",
+    "present": false
+  }, {
+    "id": 32,
+    "name": "Munteanu Alexandru",
+    "present": false
+  }, {
+    "id": 33,
+    "name": "Neiconi Mircea",
+    "present": false
+  }, {
+    "id": 34,
+    "name": "Nelu Tipurita",
+    "present": false
+  }, {
+    "id": 35,
+    "name": "Nelutu Lucaciu",
+    "present": false
+  }, {
+    "id": 36,
+    "name": "Norbert Gal",
+    "present": false
+  }, {
+    "id": 37,
+    "name": "Oana Dunca",
+    "present": false
+  }, {
+    "id": 38,
+    "name": "Oniceag Dumitru",
+    "present": false
+  }, {
+    "id": 39,
+    "name": "Ovidiu Andries ",
+    "present": false
+  }, {
+    "id": 40,
+    "name": "Pasconi Tiberiu",
+    "present": false
+  }, {
+    "id": 41,
+    "name": "Pasconi Vali",
+    "present": false
+  }, {
+    "id": 42,
+    "name": "Petrescu Eugen",
+    "present": false
+  }, {
+    "id": 43,
+    "name": "Radu Luigi",
+    "present": false
+  }, {
+    "id": 44,
+    "name": "Stefoni Sorin",
+    "present": false
+  }, {
+    "id": 45,
+    "name": "Todoran Simion",
+    "present": false
+  }, {
+    "id": 46,
+    "name": "Vladut Florin",
+    "present": false
+  }]
+}

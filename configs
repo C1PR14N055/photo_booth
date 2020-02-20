@@ -1,0 +1,31 @@
+### /boot/config.txt
+# power down monitor when lockscreen enabled
+hdmi_blanking=1
+# no black borders
+disable_overscan=1
+
+### ~/.config/lxsession/LXDE-pi/autostart
+@xset s 0 0
+@xset s noblank
+@xset s noexpose
+@xset dpms 0 0 0
+
+#Access point tutorial
+#https://www.raspberrypi.org/documentation/configuration/wireless/access-point.md
+
+#Browser will recognize the camera as webcam
+#sudo modprobe bcm2835-v4l2
+
+# insatll raspi2png
+curl -sL https://raw.githubusercontent.com/AndrewFromMelbourne/raspi2png/master/installer.sh | bash -
+
+#pycamera
+
+#run at boot as pi user & log, from /etc/rc.local
+su pi -c "bin/sh /home/pi/selphone/run.sh >> /home/pi/selphone/log 2>&1 &"
+
+#copy and explude
+rsync -av --progress ../selphone pi@raspberrypi.local:/home/pi --exclude node_modules --exclude .git
+
+# tv does not start fast enough /boot/config.txt
+boot_delay=10

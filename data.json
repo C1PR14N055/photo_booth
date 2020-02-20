@@ -1,0 +1,248 @@
+{
+  "currentPerson": {
+    "id": 0,
+    "name": "",
+    "present": false
+  },
+  "people": [{
+    "id": 0,
+    "present": false,
+    "name": "Alin Gherman"
+  }, {
+    "id": 1,
+    "present": false,
+    "name": "Ana Imbre"
+  }, {
+    "id": 2,
+    "present": false,
+    "name": "Anca Balc"
+  }, {
+    "id": 3,
+    "present": false,
+    "name": "Andrei Marian Pogacean"
+  }, {
+    "id": 4,
+    "present": false,
+    "name": "Ban Bogdan"
+  }, {
+    "id": 5,
+    "present": false,
+    "name": "Brasoveanu-Vlad Liuta"
+  }, {
+    "id": 6,
+    "present": false,
+    "name": "Calin Coman"
+  }, {
+    "id": 7,
+    "present": false,
+    "name": "Catalin Brotei"
+  }, {
+    "id": 8,
+    "present": false,
+    "name": "Cazan Gligor"
+  }, {
+    "id": 9,
+    "present": false,
+    "name": "Ciachir Adrian"
+  }, {
+    "id": 10,
+    "present": false,
+    "name": "Ciachir Amalia"
+  }, {
+    "id": 11,
+    "present": false,
+    "name": "Cojocaru Florin"
+  }, {
+    "id": 12,
+    "present": false,
+    "name": "Cristi Julean"
+  }, {
+    "id": 13,
+    "present": false,
+    "name": "Cristi Poteras"
+  }, {
+    "id": 14,
+    "present": false,
+    "name": "Cristian Mihai Julean"
+  }, {
+    "id": 15,
+    "present": false,
+    "name": "Cristian Selegean"
+  }, {
+    "id": 16,
+    "present": false,
+    "name": "Cristian-Valentin Curea"
+  }, {
+    "id": 17,
+    "present": false,
+    "name": "Daniel Bahrim"
+  }, {
+    "id": 18,
+    "present": false,
+    "name": "Daniel Imbre"
+  }, {
+    "id": 19,
+    "present": false,
+    "name": "Danut Hord"
+  }, {
+    "id": 20,
+    "present": false,
+    "name": "Diana Cerb"
+  }, {
+    "id": 21,
+    "present": false,
+    "name": "Dima Lucian"
+  }, {
+    "id": 22,
+    "present": false,
+    "name": "Dimitrie Musca"
+  }, {
+    "id": 23,
+    "present": false,
+    "name": "Doba Ioan"
+  }, {
+    "id": 24,
+    "present": false,
+    "name": "Don Alexandru"
+  }, {
+    "id": 25,
+    "present": false,
+    "name": "Dorin Stana"
+  }, {
+    "id": 26,
+    "present": false,
+    "name": "Dragos Gheorghe"
+  }, {
+    "id": 27,
+    "present": false,
+    "name": "Draica Silviu"
+  }, {
+    "id": 28,
+    "present": false,
+    "name": "Eugen-Petrica Herman"
+  }, {
+    "id": 29,
+    "present": false,
+    "name": "Feies Cosmin"
+  }, {
+    "id": 30,
+    "present": false,
+    "name": "Florin-Lucian Tirtira"
+  }, {
+    "id": 31,
+    "present": false,
+    "name": "Gabi Cretu"
+  }, {
+    "id": 32,
+    "present": false,
+    "name": "Gabor Gabriel"
+  }, {
+    "id": 33,
+    "present": false,
+    "name": "Guruban Sorin"
+  }, {
+    "id": 34,
+    "present": false,
+    "name": "Halai Attila"
+  }, {
+    "id": 35,
+    "present": false,
+    "name": "Ionel Tulea"
+  }, {
+    "id": 36,
+    "present": false,
+    "name": "Istvan Wagner"
+  }, {
+    "id": 37,
+    "present": false,
+    "name": "Korondi Jozsa Erica"
+  }, {
+    "id": 38,
+    "present": false,
+    "name": "Mariana Murg"
+  }, {
+    "id": 39,
+    "present": false,
+    "name": "Mihai-Marian Ionita"
+  }, {
+    "id": 40,
+    "present": false,
+    "name": "Mirel Mihuta"
+  }, {
+    "id": 41,
+    "present": false,
+    "name": "Nagy Ioan"
+  }, {
+    "id": 42,
+    "present": false,
+    "name": "Norbert Gal"
+  }, {
+    "id": 43,
+    "present": false,
+    "name": "Octavian-Florin Danciu"
+  }, {
+    "id": 44,
+    "present": false,
+    "name": "Oliver Stanciu"
+  }, {
+    "id": 45,
+    "present": false,
+    "name": "Otlacan Ciprian"
+  }, {
+    "id": 46,
+    "present": false,
+    "name": "Ovidiu Andries"
+  }, {
+    "id": 47,
+    "present": false,
+    "name": "Petrov Dana"
+  }, {
+    "id": 48,
+    "present": false,
+    "name": "Petru Farcas"
+  }, {
+    "id": 49,
+    "present": false,
+    "name": "Pop Sorin"
+  }, {
+    "id": 50,
+    "present": false,
+    "name": "Rotaru Marian"
+  }, {
+    "id": 51,
+    "present": false,
+    "name": "Scolobiuc Nicolae"
+  }, {
+    "id": 52,
+    "present": false,
+    "name": "Silviu Pantis"
+  }, {
+    "id": 53,
+    "present": false,
+    "name": "Teodor Tulea"
+  }, {
+    "id": 54,
+    "present": false,
+    "name": "Todoca Cristi"
+  }, {
+    "id": 55,
+    "present": false,
+    "name": "Todoca Radu"
+  }, {
+    "id": 56,
+    "present": false,
+    "name": "Varga Gabriel"
+  }, {
+    "id": 57,
+    "present": false,
+    "name": "Vasiel Covaci"
+  }, {
+    "id": 58,
+    "present": false,
+    "name": "Vasile Homorogan"
+  }, {
+    "id": 59,
+    "present": false,
+    "name": "Vladut Florin"
+  }]
+}

@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/assets/people.css">
+  <title>Invitati</title>
+</head>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Nume</th>
+        <th>Prezent</th>
+        <th>Activ</th>
+      </tr>
+      <tr><td colspan="2"><input placeholder="Introdu un alt nume" id="name" type="text"></td><td><button class="active" onclick="setName()">ACTIVEAZA</button></td></tr>
+    </thead>
+    <tbody id="tbody">
+      <!-- <tr>
+        <td>Ciprian</td>
+        <td>Nu</td>
+        <td>Da</td>
+      </tr> -->
+    </tbody>
+  </table>
+
+  <script>
+
+    let ws = new WebSocket('ws://' + window.location.hostname + ':40510');
+    let data = null;
+
+    function $(q) {
+      return document.querySelector(q);
+    }
+
+    function getActiveBtn(id) {
+      if (data.currentPerson && data.currentPerson.id == id) {
+        return '<button class="active" onclick="toggleActive(' + id + ')">DEZACTIVEAZA</button>';
+      } else {
+        return '<button class="inactive" onclick="toggleActive(' + id + ')">ACTIVEAZA</button>';
+      }
+    }
+
+    function toggleActive(id) {
+      let person = getBinarySearch(id, data.people);
+      person.present = true;
+      if (data.currentPerson.id != person.id) {
+        data.currentPerson = person;
+      } else {
+        data.currentPerson = { id: 0, name: '', present: true };
+      }
+
+      // console.log(person);
+      // console.log(data);
+
+      ws.send(JSON.stringify(data));
+    }
+
+    function setName() {
+      let person = {};
+      person.id = 0;
+      person.name = $("#name").value;
+      person.present = true;
+      data.currentPerson = person;
+      $("#name").value = "";
+      ws.send(JSON.stringify(data));
+    }
+
+    // to binary search people on data
+    function getBinarySearch(needle, haystack) {
+      let start = 0;
+      let stop = haystack.length - 1;
+      let middle = Math.floor((start + stop) / 2);
+
+      while (haystack[middle].id !== needle && start < stop) {
+        if (needle < haystack[middle].id) {
+          stop = middle - 1;
+        } else {
+          start = middle + 1;
+        }
+
+        middle = Math.floor((start + stop) / 2);
+      }
+
+      return (haystack[middle].id == needle) ? haystack[middle] : null;
+    }
+
+    ws.onopen = function () {
+      // console.log('websocket connected ...') 
+      // ws.send('connected')
+    }
+    ws.onmessage = function (ev) {
+      data = JSON.parse(ev.data);
+
+      let rows = '';
+      for (let p of data.people) {
+        rows += '<tr><td>' + p.name + '</td><td>' + (p.present ? 'Da' : 'Nu') + '</td> \
+          <td>' + getActiveBtn(p.id) + '</td></tr>';
+      }
+      $('#tbody').innerHTML = rows;
+    }
+
+    // setInterval(() => {
+    //   data.people[0].present = !data.people[0].present;
+    //   ws.send(JSON.stringify(data));
+    // }, 1000);
+  </script>
+</body>
+
+</html>
